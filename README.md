@@ -27,3 +27,6 @@ Ordemann A. et al. Swelling-collapse transition of self-attracting walks
 - [6]
 Foster J. G., Grassberger P., Paczuski M. Reinforced walks in two and three
 dimensions //New Journal of Physics. – 2009. – Т. 11. – No. 2. – С. 023009.
+
+- [7]
+Kozma G. Reinforced random walk //arXiv preprint arXiv:1208.0364. – 2012.
