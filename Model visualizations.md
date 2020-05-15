@@ -15,7 +15,7 @@
 ![Phase diagram](phase%20diagram_4.png)
 
 # Density diagram
-![Phase diagram](volume_density.png)
+![Phase diagram](volume%20density.png)
 
 # Animations
 ## a = -5 b = 2
