@@ -4,6 +4,9 @@ import DataStructures
 
 LATTICE_SIZE = 10000
 
+log_param_a = rand()*8-4
+log_param_b = rand()*8-4
+
 struct Lattice
     memory::DataStructures.OrderedDict{Tuple, Int8}
     neib::Tuple
@@ -85,8 +88,7 @@ function Update!(lattice, probs, pos, aa, bb)
     return probs, pos
 end
 
-log_param_a = rand()*8-4
-log_param_b = rand()*8-4
+
 
 aa = exp(log_param_a)
 bb = exp(log_param_b)
