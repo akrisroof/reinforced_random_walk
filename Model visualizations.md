@@ -13,6 +13,11 @@
 ![Phase diagram](phase%20diagram_2.png)
 ![Phase diagram](phase%20diagram_3.png)
 ![Phase diagram](phase%20diagram_4.png)
+
+# Density diagram
+![Phase diagram](volume_density.png)
+
+# Animations
 ## a = -5 b = 2
 ![Phase diagram](Gifs/-5%202.gif)
 ## a = 1 b = 1
