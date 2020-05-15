@@ -2,6 +2,8 @@ using Plots
 import Distributions; dst = Distributions
 import DataStructures
 
+LATTICE_SIZE = 10000
+
 struct Lattice
     memory::DataStructures.OrderedDict{Tuple, Int8}
     neib::Tuple
@@ -95,7 +97,7 @@ count = 0
 time_array = []
 start_time = time()
 len_lattice = len(lattice)
-while len(lattice) < 10000
+while len(lattice) < LATTICE_SIZE
     global probs
     global pos
     global len_lattice
@@ -112,4 +114,4 @@ end
 
 using NPZ
 res = hcat([[k for k in i] for i in keys(lattice.memory) if lattice.memory[i]==0]...)
-npzwrite("data/a=$(log_param_a)_b=$(log_param_b)_visited_volume=10k.npy", res)
+npzwrite("data/a=$(log_param_a)_b=$(log_param_b)_lattice_size=$(LATTICE_SIZE).npy", res)
